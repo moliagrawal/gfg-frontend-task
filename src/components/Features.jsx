@@ -9,24 +9,28 @@ const features = [
     description: 'Master physics, collision detection, AI, and game loops.',
     svg: GameMechanicsSVG,
     bgColor: 'bg-gray-100', 
+    glowColor: 'hover:shadow-red-500',
   },
   {
     title: 'Visual Effects',
     description: 'Create 2D/3D graphics and animations.',
     svg: VisualEffectsSVG,
     bgColor: 'bg-gray-100',
+    glowColor: 'hover:shadow-blue-500',
   },
   {
     title: 'Game Balancing',
     description: 'Balance difficulty and progression.',
     svg: GameBalancingSVG,
     bgColor: 'bg-gray-100',
+    glowColor: 'hover:shadow-yellow-500',
   },
   {
     title: 'Cross-Platform Dev',
     description: 'Deploy games on PC, web, and mobile.',
     svg: CrossPlatformDevSVG,
     bgColor: 'bg-gray-100',
+    glowColor: 'hover:shadow-purple-500',
   },
 ];
 
@@ -38,7 +42,7 @@ const Features = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className={`relative p-6 rounded-lg shadow-lg ${feature.bgColor}`}
+            className={`relative p-6 rounded-lg shadow-lg transition duration-300 transform ${feature.glowColor} ${feature.bgColor} hover:bg-gray-200 hover:shadow-xl hover:scale-105`}
             style={{ minHeight: '220px', maxWidth: '700px' }}
           >
             <img

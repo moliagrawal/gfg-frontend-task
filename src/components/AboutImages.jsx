@@ -7,15 +7,27 @@ const AboutImages = () => {
   return (
     <div className="flex flex-col gap-2 lg:flex-row lg:gap-2"> 
       <div className="lg:w-md flex justify-center">
-        <img src={bl} alt="Large Image" className="w-full max-w-md lg:max-w-full" />
+        <img 
+          src={bl} 
+          alt="Large Image" 
+          className="w-full max-w-md lg:max-w-full transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400 hover:scale-105" 
+        />
       </div>
 
       <div className="lg:w-1/2 grid grid-rows-2 gap-2"> 
         <div className="flex justify-center">
-          <img src={bru} alt="Chart Image" className="w-full max-w-lg lg:max-w-md" /> 
+          <img 
+            src={bru} 
+            alt="Chart Image" 
+            className="w-full max-w-lg lg:max-w-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400 hover:scale-105" 
+          /> 
         </div>
         <div className="flex justify-center">
-          <img src={brd} alt="Smiley Image" className="w-full max-w-lg lg:max-w-md" /> 
+          <img 
+            src={brd} 
+            alt="Smiley Image" 
+            className="w-full max-w-lg lg:max-w-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:shadow-green-400 hover:scale-105" 
+          /> 
         </div>
       </div>
     </div>
