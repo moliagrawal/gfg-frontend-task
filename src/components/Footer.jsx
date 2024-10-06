@@ -31,13 +31,13 @@ const Footer = () => {
               </p>
   
               <div className="flex space-x-4 mt-auto justify-center md:justify-start">
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/gfg_rbu/" target="_blank" rel="noopener noreferrer">
                   <img src={InstaIcon} alt="Instagram" className="w-6 h-6" />
                 </a>
-                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.geeksforgeeks.org/tag/twitter/" target="_blank" rel="noopener noreferrer">
                   <img src={TwitterIcon} alt="Twitter" className="w-6 h-6" />
                 </a>
-                <a href="https://www.discord.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://discord.com/invite/DZgFKumKAm" target="_blank" rel="noopener noreferrer">
                   <img src={DiscordIcon} alt="Discord" className="w-6 h-6" />
                 </a>
                 <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
