@@ -28,12 +28,9 @@ const FAQAccordion = () => {
 
   return (
     <div id="faqs" className="flex flex-col md:flex-row gap-8 p-8">
-      {/* FAQ Title on the left */}
       <div className="w-full md:w-1/3">
         <h2 className="text-3xl font-bold">FAQs</h2>
       </div>
-
-      {/* Questions on the right */}
       <div className="w-full md:w-2/3">
         {FAQs.map((faq, index) => (
           <div key={index} className="mb-4">
