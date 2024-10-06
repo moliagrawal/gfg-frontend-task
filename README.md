@@ -54,7 +54,7 @@ The application will be accessible at http://localhost:5173.
 ## Features
 
 - **Responsive Design**: The layout adjusts seamlessly across various screen sizes.
-- **FAQs Accordian**: A neatly designed FAQ accordian section.
+- **FAQs Accordion**: A neatly designed FAQ accordion section.
 - **Animations and Transitions**: Smooth hover effects enhance user experience.
 
 ## SEO Considerations
