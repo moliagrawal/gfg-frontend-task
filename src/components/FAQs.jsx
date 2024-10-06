@@ -27,7 +27,7 @@ const FAQAccordion = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-8 p-8">
+    <div id="faqs" className="flex flex-col md:flex-row gap-8 p-8">
       {/* FAQ Title on the left */}
       <div className="w-full md:w-1/3">
         <h2 className="text-3xl font-bold">FAQs</h2>
@@ -52,7 +52,6 @@ const FAQAccordion = () => {
           </div>
         ))}
 
-        {/* See More link directly below the last FAQ */}
         <div className="mt-4 flex justify-start">
           <a
             href="#see-more"
